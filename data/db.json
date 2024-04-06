@@ -1,0 +1,46 @@
+{
+  "spending": [
+    {
+      "id": "755b",
+      "title": "123",
+      "spending": 123,
+      "date": "03.31.2024",
+      "category": "Home"
+    },
+    {
+      "id": "744b",
+      "title": "123",
+      "spending": 123,
+      "date": "03.22.2024",
+      "category": "Home"
+    },
+    {
+      "id": "733b",
+      "title": "123",
+      "spending": 123,
+      "date": "04.01.2024",
+      "category": "Home"
+    },
+    {
+      "id": "7112",
+      "title": "123",
+      "spending": 123,
+      "date": "03.31.2024",
+      "category": "Home"
+    },
+    {
+      "id": "043b",
+      "title": "123",
+      "spending": 123,
+      "date": "04.06.2024",
+      "category": "Home"
+    },
+    {
+      "id": "f176",
+      "title": "123",
+      "spending": 123,
+      "date": "04.06.2024",
+      "category": "Home"
+    }
+  ]
+}

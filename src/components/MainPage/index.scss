@@ -1,0 +1,77 @@
+.main-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background: #eae8e8;
+  border-radius: 15px;
+  border: 1px solid #bcb9b9;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px;
+    animation: color-change2 1.5s infinite;
+  }
+}
+
+// Arrow Animation
+
+.arrows-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-right: 20px solid;
+  animation: color-change 1.5s infinite;
+}
+
+@keyframes color-change {
+  0% {
+    border-right-color: rgb(31, 75, 178);
+    color: rgb(31, 75, 178);
+  }
+  25% {
+    border-right-color: rgb(35, 80, 174);
+    color: rgb(31, 75, 178);
+  }
+  50% {
+    border-right-color: rgb(23, 63, 144);
+    color: rgb(31, 75, 178);
+  }
+  75% {
+    border-right-color: rgb(16, 44, 102);
+    color: rgb(31, 75, 178);
+  }
+  100% {
+    border-right-color: rgb(2, 37, 107);
+    color: rgb(31, 75, 178);
+  }
+}
+
+@keyframes color-change2 {
+  0% {
+    color: rgb(31, 75, 178);
+  }
+  25% {
+    color: rgb(35, 80, 174);
+  }
+  50% {
+    color: rgb(23, 63, 144);
+  }
+  75% {
+    color: rgb(16, 44, 102);
+  }
+  100% {
+    color: rgb(2, 37, 107);
+  }
+}

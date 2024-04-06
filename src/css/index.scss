@@ -1,0 +1,29 @@
+@import 'normalize.scss';
+@import 'reset.scss';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  appearance: none;
+  color: #fff;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #dcdcdc;
+}
+
+main {
+  max-width: 1330px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 20px 0 20px;
+  margin: 0 auto;
+}
+
+
